@@ -1,18 +1,31 @@
-## Getting Started
+## Sistema de Cadastro de Produtos de Supermercado
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um sistema simples de cadastro de produtos para supermercados, desenvolvido em Java utilizando os conceitos de Programação Orientada a Objetos (POO).
+O sistema permite adicionar, listar, atualizar e remover produtos.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+Adicionar produtos com nome, preço e quantidade.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Listar todos os produtos cadastrados.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Atualizar o preço e a quantidade de um produto.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Remover produtos pelo ID.
 
-## Dependency Management
+Validação de entrada do usuário utilizando try-catch para evitar erros de formatação.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Estrutura do Código
+
+Produto: Classe que representa um produto com atributos ID, nome, preço e quantidade.
+
+GerenciadorDeProdutos: Classe responsável pelo gerenciamento da lista de produtos.
+
+SistemaCadastroSupermercado: Classe principal que executa o menu interativo para interação com o usuário.
+
+## Melhorias Futuras
+Implementação de armazenamento em banco de dados.
+
+Interface gráfica para facilitar o uso.
+
+Relatórios de produtos cadastrados.
